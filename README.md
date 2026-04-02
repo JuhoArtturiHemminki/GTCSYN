@@ -13,7 +13,7 @@ Traditional information theory (Landauer's Principle) states that every bit eras
 ## ARCHITECTURAL LAYERS
 
 ### 1. HEMMINKICORE (PHASE STABILITY)
-The core engine monitors the geometric integrity of the bit-stream. It tracks the cumulative entropy drift (e_drift) against the Hemminki Constant (Hc = 5.0832). If the system exceeds this limit, geometric symmetry breaks, and the system reverts to classical dissipative thermodynamics.
+The core engine monitors the geometric integrity of the bit-stream. It tracks the cumulative entropy drift (e_drift) against the Hemminki Constant ($$H_c$$ = 5.0832). If the system exceeds this limit, geometric symmetry breaks, and the system reverts to classical dissipative thermodynamics.
 
 ### 2. GTCSYNTHESIZER (VARIABLE INTERVAL SEQUENCING)
 Instead of a fixed clock, GTCSYN utilizes Variable Interval Sequencing (VIS). The synthesizer generates a temporal schedule where each bit-flip occurs at an irrational phase-offset. This prevents the formation of phonons (heat) by ensuring no two transitions achieve constructive interference.
